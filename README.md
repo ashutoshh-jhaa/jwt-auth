@@ -18,7 +18,7 @@ This repository demonstrates a simple JWT-based authentication system using Expr
 
 ## Project Structure
 
-- `index.js` (or `server.js`): Express app setup and server start.
+- `main.js` : Express app setup and server start.
 - `config/passport-jwt.js`: Passport JWT strategy configuration.
 - `routes/index.js`: Routes for login and protected endpoints.
 - `.env`: Environment variables (contains `JWT_SECRET_KEY`).
